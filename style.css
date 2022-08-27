@@ -102,11 +102,19 @@ img {
     height: 100%;
 }
 
-button {
+.btn {
     background: rgb(0, 157, 255);
     padding: 8px 15px;
-    border: 1px solid  rgb(0, 60, 98);
+    border: 1px solid  rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+.btn-2{
+    background-color: #fff !important;
+}
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
 }
 
 .main-header::before {
@@ -169,10 +177,13 @@ button {
     width: 100%;
 }
 
-.column {
-    background-color: rgb(100, 100, 100);
+.column1 {
+    background-color: rgb(77, 77, 77);
 }
 
+.column2{
+    background-color: rgb(0, 132, 255);
+}
 .flex-columns .column {
     flex: 1;
 }
