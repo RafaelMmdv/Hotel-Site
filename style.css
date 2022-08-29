@@ -347,3 +347,56 @@ img {
 .footer .social a {
     margin-right: 10px;
 }
+
+/* mobile */
+
+@media(max-width: 768px) {
+    html {
+        font-size: 9px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .teams img {
+        width: 70%;
+    }
+
+    .flex-columns .column {
+        flex: 100%;
+    }
+
+    .flex-items > div {
+        padding: 10px;
+    }
+
+    .flex-columns .column {
+        flex: 100%;
+    }
+
+    .flex-grid .column {
+        flex: 50%;
+        padding: 0 .4rem;
+    }
+
+    .contact .row {
+        flex-direction: column;
+    }
+
+    .contact #form-top {
+        margin-top: 6rem;
+    }
+
+}
