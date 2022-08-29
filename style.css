@@ -252,3 +252,25 @@ img {
     opacity: 0.8;
     cursor: pointer;
 }
+
+.section-padding {
+    padding: 2rem 2rem 4rem;
+}
+
+.card-body {
+    background: rgb(255, 153, 0);
+    padding: 2rem;
+}
+
+.card {
+    color: #fff;
+    font-weight: 700;
+}
+/*teams*/
+
+.teams img {
+    border-radius: 50%;
+}
+.teams img:hover{
+    opacity: .7;
+}
