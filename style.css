@@ -8,6 +8,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -399,4 +400,44 @@ img {
         margin-top: 6rem;
     }
 
+    .flex-columns .column {
+        flex: 100% !important;
+    }
+    
+    .flex-grid .column {
+        flex: 50%;
+    }
+
 }
+.main-header{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+color: #fff;
+position: relative;
+}
+
+.main-header .blog {
+    background-image: url(/img/bg-2.jpeg);
+}
+
+.flex-columns.article .column:nth-child(odd) {
+flex: 2;
+}
+
+.flex-columns.article .column:nth-child(even) {
+flex: 3;
+}
+
+/* article */
+.articles {
+    padding: 3rem 5rem;
+}
+
+.article {
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+
